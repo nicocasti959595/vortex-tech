@@ -27,7 +27,8 @@ export default function Hero() {
   const s = heroSlides[i];
 
   return (
-    <section id="top" className="aurora grid-bg relative overflow-hidden border-b border-line">
+    <section id="top" className="aurora relative overflow-hidden border-b border-line">
+      <div className="grid-bg absolute inset-0 z-0" />
       <div className="scanline" />
       <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-8 px-4 py-14 md:grid-cols-2 md:py-20">
         {/* Texto */}
